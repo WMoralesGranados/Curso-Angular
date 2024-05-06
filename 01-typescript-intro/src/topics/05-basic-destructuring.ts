@@ -27,13 +27,13 @@ const { author } = details
 
 
 // console.log('Song: ', anotherSong);
-// console.log('Duration: ', duration);
-// console.log('Author: ', author);
+console.log('Duration: ', duration);
+console.log('Author: ', author);
 
 // Esto en JavaScript Sería ---> const personajes = ['Goku', 'Vegeta', 'Trunks'];
 const [ , , trunks = 'Not found']: string[] = ['Goku','Vegeta','Trunks'];
 
-console.error('Personaje 3: ', trunks);
+console.log('Personaje 3: ', trunks);
 
 
 
